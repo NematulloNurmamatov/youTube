@@ -1,0 +1,26 @@
+.homepage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    margin-left: 16%;
+  }
+  
+  @media (max-width:1133px) {
+    .homepage {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-left: 6%;
+    }
+  }
+  
+  @media (max-width:590px) {
+    .homepage {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-left: 52px;
+      padding-top: 20px;
+    }
+  }
